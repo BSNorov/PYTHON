@@ -2,7 +2,7 @@ import sys
 
 from PyQt6 import QtWidgets, QtCore
 from PyQt6.QtCore import QSize, Qt, QRect, QPoint
-from PyQt6.QtGui import QIcon, QAction, QColor, QPixmap, QPainter, QImage
+from PyQt6.QtGui import QIcon, QAction, QColor, QPixmap, QPainter
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, \
    QGraphicsColorizeEffect, QToolBar, QSlider, QWidget, QVBoxLayout, QHBoxLayout, QFileDialog
 
