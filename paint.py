@@ -154,7 +154,9 @@ class MainWindow(QMainWindow):
 
        # Ползунок для изменения размера текста
        sizeicon = QLabel()
-       sizeicon.setPixmap(QPixmap("icons/border-weight.png"))
+       pixmap = QPixmap("icons/border-weight.png")
+       pixmap = pixmap.scaled(16, 16, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
+       sizeicon.setPixmap(pixmap)
        self.sliderToolbar.addWidget(sizeicon)
 
        self.sizeselect = QSlider()
